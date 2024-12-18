@@ -1,4 +1,4 @@
-# kumo_webmail
+# KumoMTA with webmail 
 A guide to installing [KumoMTA](https://kumomta.com/) + [Dovecot](https://doc.dovecot.org/2.3/) + [Roundcube](https://roundcube.net/) for Webmail inboxes
 
 [KumoMTA](https://docs.kumomta.com/) is a powerful Message Transport Agent, but it does not come bundled with any graphic UI of any kind, and that includes mailbox handling.
