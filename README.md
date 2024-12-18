@@ -70,7 +70,8 @@ sudo chown kumod /var/maildirs/
 ```
 
 Test and make sure KumoMTA work and you can send and receive mail and that the maildir fills out as expected:
-```ls -asltr /var/maildirs/kumomta.com/tom/new/
+```bash
+ls -asltr /var/maildirs/kumomta.com/tom/new/
 total 24
 4 -rw-rw-r-- 1 kumod kumod  810 Dec 17 23:12 '1734477131.#0M525277478P4580V66306I517241.webmail.kumomta.com,S=810'
 ```
