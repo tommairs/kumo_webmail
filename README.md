@@ -109,11 +109,12 @@ Now also modify the php config to uncomment the `mbstring` extension:
 `sudo vi /etc/php/8.1/apache2/php.ini`
 
 Modify mbstring extension:
+```bash
 ;extension=imap
 ;extension=ldap
 extension=mbstring   ;**<== Uncomment this**
 ;extension=exif      ; Must be after mbstring as it depends on it
-
+```
 
 And set the timezone (change it to yours not mine):
 `date.timezone = "America/Edmonton"`
