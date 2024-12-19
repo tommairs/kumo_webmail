@@ -1,7 +1,7 @@
 # KumoMTA with webmail 
 A guide to installing [KumoMTA](https://kumomta.com/) + [Dovecot](https://doc.dovecot.org/2.3/) + [Roundcube](https://roundcube.net/) for Webmail inboxes
 
-[KumoMTA](https://docs.kumomta.com/) is a powerful Message Transport Agent, but it does not come bundled with any graphic UI of any kind, and that includes mailbox handling.
+[KumoMTA](https://docs.kumomta.com/) is a powerful Message Transfer Agent, but it does not come bundled with any graphic user interface of any kind, and that includes mailbox handling.
 In a recent release, we included the ability to write messages to local maildir format mailboxes in order to allow for inbound message processing.  
 This type of handling can include anti-virus scanning, store and forward functions, legal intercept storage, postmaster mailboxes, and many other uses.  
 
