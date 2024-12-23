@@ -53,7 +53,7 @@ There is also a 3rd-party installer here that will install a very basic version 
 You can git clone the code there and run it as described.
 
 Once KumoMTA is functional, ensure you add the MAILDIR functionality described here:
-[https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/](https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/?h=maildir#advanced-maildir-path]
+[https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/](https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/?h=maildir#advanced-maildir-path)
 
 There is also a working config here that includes that if you want to copy or compare:
 [https://github.com/tommairs/kumo_config](https://github.com/tommairs/kumo_config)
@@ -61,7 +61,7 @@ There is also a working config here that includes that if you want to copy or co
 * NOTE: If you copy that whole config to /opt/kumomta/etc/policy/ then you will now have a working email server that will store select domain emails to a local MAILDIR compatible with webmail.
 
 Otherwise, review the instructions here: 
-https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/?h=maildir#advanced-maildir-path
+[https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/?h=maildir#advanced-maildir-path](https://docs.kumomta.com/reference/kumo/make_queue_config/protocol/?h=maildir#advanced-maildir-path)
 
 Make sure you create the actual maildir directory and set permissions. That does not happen automatically. 
 ```bash
@@ -112,12 +112,14 @@ Modify mbstring extension:
 ```bash
 ;extension=imap
 ;extension=ldap
-extension=mbstring   ;**<== Uncomment this**
+extension=mbstring   ;** <== Uncomment this **
 ;extension=exif      ; Must be after mbstring as it depends on it
 ```
 
 And set the timezone (change it to yours not mine):
-`date.timezone = "America/Edmonton"`
+```bash
+date.timezone = "America/Edmonton"
+```
 
 
 Now disable the default site, enable the roundcube config, and restart apache.
