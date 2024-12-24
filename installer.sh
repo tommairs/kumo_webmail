@@ -3,6 +3,13 @@
 # KumoMTA + Dovecot + Roundcube project
 ###################################################
 
+###################################################
+#
+#  THIS SCRIPT IS UNTESTED AND EXPERIMENTAL
+#   -- HERE BE DRAGONS --
+#
+###################################################
+#
 # The prep work
 sudo apt-get autoclean
 sudo apt-get -y update
